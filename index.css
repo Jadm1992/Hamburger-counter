@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(66deg, #9055A2, #D499B9);
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-top: vh;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#incrementBtn {
+    background: #CE84AD;
+    transition: transform 0.2s ease;
+}
+
+#incrementBtn:active {
+    transform: scale(0.95);
+}
+
+#reset-btn {
+    background: #C2EFB3;
+    transition: transform 0.2s ease;
+}
+
+#reset-btn:active {
+    transform: scale(0.95);
+}
+
+#save-btn {
+    background: #0C0A3E;
+    transition: transform 0.2s ease;
+    -webkit-transition: transform 0.2s ease;
+    -moz-transition: transform 0.2s ease;
+    -ms-transition: transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+}
+
+#save-btn:active {
+    transform: scale(0.95);
+}
+
+#decrement-btn {
+    background: #D81E5B;
+    transition: transform 0.2s ease;
+    -webkit-transition: transform 0.2s ease;
+    -moz-transition: transform 0.2s ease;
+    -ms-transition: transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+}
+
+#decrement:active {
+    transform: scale(0.95);
+}
+
+.btn-container {
+    margin-top: 40vh;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+
+}
